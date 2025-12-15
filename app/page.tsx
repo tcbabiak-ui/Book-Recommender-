@@ -11,17 +11,17 @@ export default function Home() {
   const [messages, setMessages] = useState<Message[]>([
     {
       role: 'assistant',
-      content: `📚 **Welcome to Book Recommender Bot!**
+      content: `📚 Welcome to Book Recommender Bot!
 
-**Important:** This app requires a laptop or desktop computer. It does not work on mobile devices.
+Important: This app requires a laptop or desktop computer. It does not work on mobile devices.
 
-**How to get book recommendations:**
+How to get book recommendations:
 
 1. Go to https://read.amazon.com/kindle-library?itemView=compact
 
-2. Scroll through your entire library to load all books, then press **Cmd+A** (Mac) or **Ctrl+A** (Windows) to select everything on the page
+2. Scroll through your entire library to load all books, then press Cmd+A (Mac) or Ctrl+A (Windows) to select everything on the page
 
-3. Press **Cmd+C** (Mac) or **Ctrl+C** (Windows) to copy, then paste everything into the chat below
+3. Press Cmd+C (Mac) or Ctrl+C (Windows) to copy, then paste everything into the chat below
 
 4. Click Send to get personalized book recommendations based on your reading preferences!
 
@@ -113,17 +113,17 @@ Keep it brief and direct.`;
     setMessages([
       {
         role: 'assistant',
-        content: `📚 **Welcome to Book Recommender Bot!**
+        content: `📚 Welcome to Book Recommender Bot!
 
-**Important:** This app requires a laptop or desktop computer. It does not work on mobile devices.
+Important: This app requires a laptop or desktop computer. It does not work on mobile devices.
 
-**How to get book recommendations:**
+How to get book recommendations:
 
 1. Go to https://read.amazon.com/kindle-library?itemView=compact
 
-2. Scroll through your entire library to load all books, then press **Cmd+A** (Mac) or **Ctrl+A** (Windows) to select everything on the page
+2. Scroll through your entire library to load all books, then press Cmd+A (Mac) or Ctrl+A (Windows) to select everything on the page
 
-3. Press **Cmd+C** (Mac) or **Ctrl+C** (Windows) to copy, then paste everything into the chat below
+3. Press Cmd+C (Mac) or Ctrl+C (Windows) to copy, then paste everything into the chat below
 
 4. Click Send to get personalized book recommendations based on your reading preferences!
 
