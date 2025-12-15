@@ -2,8 +2,8 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Gemini Chat',
-  description: 'Simple Gemini AI chat interface',
+  title: 'Book Recommender Bot',
+  description: 'Get personalized book recommendations from your Kindle library',
 }
 
 export default function RootLayout({
@@ -13,7 +13,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="bg-gray-900 text-gray-100">{children}</body>
+      <body className="bg-white text-gray-900">{children}</body>
     </html>
   )
 }
